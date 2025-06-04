@@ -1,0 +1,73 @@
+/* dashboard.css - styl spójny z panelem logowania */
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #5b3c88;
+    color: #ffffff;
+    min-height: 100vh;
+}
+
+header, nav, footer {
+    background-color: #754a9e;
+    padding: 1rem 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+header h1, footer p {
+    margin: 0;
+    font-weight: 600;
+}
+
+main {
+    padding: 2rem;
+}
+
+.card {
+    background-color: #6a4390;
+    border-radius: 40px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+button, .btn {
+    background-color: #28d766;
+    color: #fff;
+    border: none;
+    padding: 0.6rem 6rem;
+    border-radius: 7px;
+    cursor: pointer;
+    font-weight: 650;
+    transition: background-color 0.3s;
+}
+
+button:hover, .btn:hover {
+    background-color: #22c25a;
+}
+
+a {
+    color: #d2d2ff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+  
+  .card li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    margin: 1rem 0; /* większy odstęp między elementami */
+    background: #59347cdc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  
