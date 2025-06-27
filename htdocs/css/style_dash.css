@@ -1,0 +1,133 @@
+/* css do stylizacji dashboardu*/
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #5b3c88;
+    color: #ffffff;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #653b8d;
+    padding: 1rem 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+nav {
+    background-color: #6d429b; 
+    padding: 1rem 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    background-color: #653b8d;
+    padding: 1rem 2rem;
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.2);
+}
+
+header h1, footer p {
+    margin: 0;
+    font-weight: 600;
+}
+
+main {
+    padding: 2rem;
+}
+
+.card {
+    background-color: #6a4390;
+    border-radius: 40px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* PRZYCISK */
+button, .btn {
+    background-color: #2abe2f;  
+    color: #fff;
+    border: none;
+    padding: 10px 24px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    display: inline-block;
+}
+
+button:hover, .btn:hover {
+    background-color: #884ea0;
+    transform: translateY(-2px);
+}
+
+/* LINKI */
+a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #7a52a3; 
+    color: #ffffff;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+a:hover {
+    background-color: #663a99; 
+    transform: translateY(-2px);
+    text-decoration: none;
+}
+
+.card li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    margin: 1rem 0;
+    background: #59347cdc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+
+    transition: 200ms;
+}
+
+select {
+    padding: 8px 12px;
+    border: 1px solid #8875a1;
+    border-radius: 8px;
+    background-color: #6a4390;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    transition: border-color 0.3s ease, background-color 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+select:hover {
+    border-color: #c2a3ec;
+    background-color: #7d4fac;
+}
+
+select:focus {
+    outline: none;
+    border-color: #d7bfff;
+    background-color: #8759b9;
+}
+
+.error-message {
+            background-color: #653b8d;
+            color: #ffffff;
+            border: 1px solid #ff000070;
+            padding: 10px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+
+
+  

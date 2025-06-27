@@ -1,0 +1,198 @@
+/* css do stylizacji dashboardu*/
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #5b3c88;
+    color: #ffffff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+
+header {
+    background-color: #653b8d;
+    padding: 1rem 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+nav {
+    background-color: #6d429b;
+    padding: 1rem 2rem;
+    text-align: left; /* Zmiana z 'center' na 'left' */
+}
+
+nav a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #7a52a3;
+    color: #ffffff;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    margin-right: 10px; /* Dodatkowa przestrzeń między linkami */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+nav a:hover {
+    background-color: #663a99;
+    transform: translateY(-2px);
+}
+
+footer {
+    background-color: #653b8d;
+    padding: 1rem 2rem;
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.2);
+}
+
+header h1, footer p {
+    margin: 0;
+    font-weight: 600;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em; /* Dostosowanie rozmiaru czcionki, jeśli chcesz */
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    text-align: left; /* Ustawienie tekstu po lewej stronie */
+}
+
+h3 {
+    display: block;
+    font-size: 1.5em; /* Dostosowanie rozmiaru czcionki, jeśli chcesz */
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    text-align: left; /* Ustawienie tekstu po lewej stronie */
+}
+
+main {
+    display: flex;    /* Wyśrodkowanie pionowe */
+    height: 100vh;
+    justify-content: center; /* Wyśrodkowanie poziome */
+    align-items: center;           /* Wysokość na 100% ekranu */
+}
+.card { 
+    background-color: #6a4390;
+    border-radius: 20px;
+    padding: 3rem;
+    margin-block-start: -10.83em;
+    margin-block-end: 1.83em;
+    width: 350px; /* Mniejszy rozmiar formularza */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.card2 {
+    background-color: #6a4390;
+    border-radius: 20px;
+    padding: 2rem;
+    margin: 9rem auto; /* wyśrodkowanie w poziomie + odstęp od nagłówka */
+    max-width: 500px;   /* ograniczenie szerokości karty */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+
+/* PRZYCISK */
+button, .btn {
+    background-color: #2abe2f;  
+    color: #fff;
+    border: none;
+    padding: 10px 24px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    display: inline-block;
+}
+.card button {
+    margin-top: 1.5rem; /* Zwiększamy odstęp powyżej przycisku tylko w .card */
+}
+
+button:hover, .btn:hover {
+    background-color: #884ea0;
+    transform: translateY(-2px);
+}
+
+/* LINKI */
+a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #7a52a3; 
+    color: #ffffff;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+a:hover {
+    background-color: #663a99; 
+    transform: translateY(-2px);
+    text-decoration: none;
+}
+
+.card li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    margin: 1rem 0;
+    background: #59347cdc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+
+    transition: 200ms;
+}
+
+select {
+    padding: 8px 12px;
+    border: 1px solid #8875a1;
+    border-radius: 8px;
+    background-color: #6a4390;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    transition: border-color 0.3s ease, background-color 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+select:hover {
+    border-color: #c2a3ec;
+    background-color: #7d4fac;
+}
+
+select:focus {
+    outline: none;
+    border-color: #d7bfff;
+    background-color: #8759b9;
+}
+
+.error-message {
+            background-color: #653b8d;
+            color: #ffffff;
+            border: 1px solid #ff000070;
+            padding: 10px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+
+
+  

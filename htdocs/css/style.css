@@ -1,0 +1,212 @@
+/* główny css to wyglądu stron */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3 {
+    margin-bottom: 15px;
+    color: #ffffff;
+}
+
+a {
+    color: #2980b9;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+form input, form select {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    margin: 10px 0 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* PRZYCISKI */
+input[type="submit"], button {
+    background-color: #4cd964;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover, button:hover {
+    background-color: #2980b9;
+}
+
+/* powiadomienia */
+p.success {
+    color: green;
+}
+p.error {
+    color: red;
+}
+
+/* Pasek nawigacyjny  */
+nav {
+    margin-bottom: 20px;
+}
+
+nav a {
+    margin-right: 15px;
+    font-weight: bold;
+}
+
+body.login-page {
+    background-image: url('tlo.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0; 
+}
+
+  .login-box {
+    background-color: #5b2f89;
+    padding: 40px;
+    border-radius: 12px;
+    width: 320px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+    text-align: center;
+  }
+  
+  .login-box h2 {
+    margin-bottom: 25px;
+  }
+  
+  .input-group {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  .input-group i {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: #999;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 10px 10px 10px 35px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  .remember-me {
+    font-size: 14px;
+    display: block;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #eee;
+  }
+  
+  .btn-login {
+    background-color: #4cd964;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-login:hover {
+    background-color: #3ac14b;
+  }
+  
+  .help-links {
+    margin-top: 20px;
+    font-size: 13px;
+  }
+  
+  .help-links a {
+    color: #eee;
+    text-decoration: none;
+  }
+  
+  .help-links a:hover {
+    text-decoration: underline;
+  }
+
+body.home-page {
+    background-image: url('tlo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.home-box {
+    background-color: #5b2f89;
+    padding: 40px;
+    border-radius: 12px;
+    width: 450px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+    text-align: center;
+}
+
+.home-box h1 {
+    margin-bottom: 20px;
+}
+
+.home-box a {
+    color: #eee;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+.home-box a:hover {
+    text-decoration: underline;
+}
+
+.home-links {
+    margin-top: 20px;
+}
+
+
+
+
