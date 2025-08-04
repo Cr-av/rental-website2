@@ -521,9 +521,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `imie`, `nazwisko`, `email`, `haslo_hash`, `rola`, `balance`) VALUES
-(1, 'Admin', 'System', 'admin@localhost', '$2y$10$6sOvvK7gxM7Y1GVfxwZgfeLZgP84sOYz4bRcET6uWYNJ/q.GMgA3i', 'admin', 0.00),
-(2, 'Pawel', 'Zalewski', '123@o2.pl', '$2y$10$ExISfbRDwqn9HFB.SBxZ..a51uxU1.b4mlMqbP3i3rLe1Oifc/jUq', 'user', 0.00),
-(3, 'Przemek2', 'Zalejski2', 'xsuperx122@onet.pl', '$2y$10$7hbk5V4jW3iczZ6JLcn9SeinYyFPfkuskZUybvI6Y4XP7jq0v6GIe', 'admin', 92.05);
+(1, 'Admin', 'System', 'admin@localhost', '$2y$10$6sOvvK7gxM7Y1GVfxwZgfeLZgP84sOYz4bRcET6uWYNJ/q.GMgA3i', 'admin', 0.00);
 
 -- --------------------------------------------------------
 
